@@ -1,4 +1,4 @@
-FROM ruby:3.1-slim-bullseye
+FROM ruby:3.3-slim-bullseye
 
 # renovate: datasource=github-release-attachments depName=mikefarah/yq versionPrefix=v
 ENV YQ_VERSION 4.33.3
